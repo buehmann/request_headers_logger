@@ -8,7 +8,7 @@ rvm:
 
 before_install: gem install bundler
 
-script: bin/travis
+script: ci/travis
 
 matrix:
   fast_finish: true
